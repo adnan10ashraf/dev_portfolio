@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnan Ashraf - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <h1>Adnan Ashraf</h1>
+            <p>Aspiring Software Engineer</p>
+        </div>
+    </header>
+    <section id="social-links">
+        <div class="container">
+            <a href="https://www.linkedin.com/in/adnanashraff" target="_blank" class="social-button">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/adnan10ashraf" target="_blank" class="social-button">
+                <img src="images/github.png" alt="GitHub">
+            </a>
+            <a href="resume.pdf" download class="social-button">
+                <img src="images/resume.png" alt="Download Resume">
+            </a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <strong>Hi, I'm Adnan, a Computer Science major at UC Berkeley. I've previously taken part in a research fellowship with NASA, targeting software for visualization of radioactivity data. I have a passion for software but my biggest interests are parallel computing and data analysis of which I have a few projects to show.  <!-- I've also tackled interesting and challenging projects that hone my skills in developing software and analyzing data for real world outcomes. -->
+                <br><br>I'm currently actively seeking an internship to expand and apply my skills while also growing as a professional.</strong>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>University of California Berkeley</strong></p>
+            <p>Bachelors of Computer Science</p>
+            <p>Expected Graduation: May 2025 or December 2025 (flexible)</p>
+            <p><strong>GPA: 3.95</strong></p>
+        </div>
+    </section>
+    <section id="coursework">
+        <div class="container">
+            <h2>Relevant Coursework</h2>
+            <ul class="coursework-list">
+                <li>Data Structures (A+)</li>
+                <li>Efficient Algorithms and Intractable Problems (A-)</li>
+                <li>Machine Structures (A+)</li>
+                <li>Principles and Techniques of Data Science (A+)</li>
+                <li>Optimization Models (A-)</li>
+                <li>Discrete Math (A)</li>
+                <li>*Upcoming:</li>
+                <li>Operating Systems*</li>
+                <li>Database Systems*</li>
+        
+                <!-- Add more courses as needed -->
+            </ul>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Space Grant Fellowship</h3>
+                <p><strong>NASA</strong> | June 2022 - August 2022</p>
+                <p>• Led the design and development of a complex data visualization tool for geographical radiation
+                    analysis with an emphasis on usability and scalability utilizing javascript, leaflet.js, and Firebase </p>
+                    <p>• Processed, cleaned, and prepared radioactivity data for visualization and presented metrics to leadership </p>
+                    <p>• Visualized geographical radioactivity using a dynamically updated heat map built using leaflet.js </p>
+                    <p>• Leveraged Firebase back-end data storage for efficient data storage, retrieval, and visualization, which resulted in
+                    enhanced data management capabilities as well as increased scalability </p>
+                    <p>• Collaborated with cross-functional teams to identify necessities and translate them into high-impact software
+                    solutions, improving data precision and operational efficiency</p>
+            </div>
+        <!---    <div class="experience">
+                <h3>Job Title 2</h3>
+                <p><strong>Company Name</strong> | Month Year - Month Year</p>
+                <p>Description of your responsibilities and achievements at Job 2.</p>
+            </div> -->
+            <!-- Add more experience sections as needed -->
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Housing Price Predictor</h3>
+                <p> <b>Summary:</b> Created a regression based ML model to predict the value of houses in the United States </p>
+                <p><b>Technical Skills:</b> Python, Numpy, Scikit-Learn, Pandas, Matplotlib, Regex, Jupyter</p>
+                <p>• Integrated pandas and regex to clean, filter, and extract from the dataset reducing dataset usage by 95% </p>
+                    <p>• Utilized Matplotlib and Seaborn for visualizations to extract most desirable features of dataset for a price prediction accuracy of 93% from parsing through tabular data frames consisting of 100,000+ data points </p>
+                    <p>• Applied one-hot encoding technique in order to utilize categorical variables reducing error by 14% </p>
+                    <p>• Extensively modified model parameters using cross validation reducing model error by 36% prior to evaluating set</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Convolver</h3>
+                <p><b>Summary:</b> Optimized code written in C for convolving matrices leveraging multithreading, vectorized operations, loop management, and cache optimizations achieving an overall 10.69 times speedup</p>
+                <p><b>Technical Skills:</b> C, OpenMP, OpenMPI, Intel Intrinsics, Vim, Make</p>
+                <p>• Strategically implemented SIMD vector operations to reduce total operations resulting in a 417% speedup</p>
+                <p>• Utilized OpenMP multithreading to parallelize computation, reducing overall runtime by 43%</p>
+                <p>• Optimized code to take advantage of CPU cache, lowering memory retrieval time resulting in extra 11% speedup</p>
+                <p>• Strategically unrolled dense loops to avoid CPU pipeline control hazards, concluding with a 10.6 times speedup</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Spam Email Classifier</h3>
+                <p> <b>Summary:</b> Created a logistic regression based machine learning model that classifies an email as spam or not spam given the subject and body of an email with 90% accuracy</p>
+                <p><b>Technical Skills:</b> Python, Numpy, Scikit-Learn, Pandas, Matplotlib, Regex, Jupyter</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>2D Game</h3>
+                <p> <b>Summary:</b> Lead group Capstone Project creating a video game engine that uses a Randomized Algorithm to generate unique interactive 2D worlds in which the user can explore and engage with the game using a GUI </p>
+                <p> <b>Technical Skills:</b> Java, Git, IntelliJ</p>
+                <p>• Engineered random map generation, keyboard input, save and load structures, random encounters, avatars</p>
+                <p>• Implemented logic for map bounding, creating/loading save state including reset and replay options</p>
+                <p>• Effectively managed complexity through use of object oriented programming, utilizing inheritance </p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>GetTam</h3>
+                <p> <b>Summary:</b> Developed a spin-off of a popular game named ”2048” using p5.js and published a full stack web application that became popular in my local area</p>
+                <p><b>Technical Skills:</b> JavaScript, Firebase, HTML, CSS, p5.js</p>
+                <p>• Built a live global leaderboard using Firebase’s realtime database leading to <b>200,000+ games played</b> </p>
+                <p>• Supported a <b>player base of 1000+</b>, pushing weekly updates and bug fixes</p>
+                <p>• Engineered anti-cheat algorithm to detect foul play, reducing cheating by 95%</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        
+            <!-- Add more project sections as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li><b>Programming Languages:</b> Python, Java, JavaScript, C, Risk-V, SQL</li>
+                <li><b>Data Analysis Libraries:</b> Numpy, Scikit-Learn, Pandas, Matplotlib, Seaborn, Regex</li>
+               <!-- <li>Databases: MySQL, MongoDB</li> -->
+                <li><b>Code Optimization:</b> OpenMP, OpenMPI, Intel Intrinsics</li>
+                <li><b>Tools:</b> Git, Make, Bash, IntelliJ, Visual Studio, Vim, Jupyter, Valgrind, gdb</li>
+            </ul>
+        </div>
+    </section>
+  
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:adnan.ashraf@berkeley.com">adnan.ashraf[at]berkeley.edu</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/adnanashraff" target="_blank">linkedin.com/in/adnanashraff</a></p>
+            <p>GitHub: <a href="https://github.com/adnan10ashraf" target="_blank">github.com/adnan10ashraf</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Adnan Ashraf</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

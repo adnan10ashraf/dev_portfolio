@@ -1,0 +1,14 @@
+Coursework:
+ - Update with grades when they come out
+ - Add a class in place of web dev
+
+Experience:
+ - Write something a bit more unique than what's on the resume
+
+Projects:
+ - Have a total of 4-5 projects on there
+ - So far: Housing, BYOW, Convolver, GetTam, BearlyAI?
+
+Skills:
+ - Clean up the stuff on there
+ - Add or remove whatever is needed
