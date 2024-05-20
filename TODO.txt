@@ -8,6 +8,7 @@ Experience:
 Projects:
  - Have a total of 4-5 projects on there
  - So far: Housing, BYOW, Convolver, GetTam, BearlyAI?
+ - Too convoluted, limit to 2 bullets
 
 Skills:
  - Clean up the stuff on there
