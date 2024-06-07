@@ -13,3 +13,5 @@ Projects:
 Skills:
  - Clean up the stuff on there
  - Add or remove whatever is needed
+
+ Hide API key
